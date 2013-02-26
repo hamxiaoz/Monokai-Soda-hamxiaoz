@@ -511,8 +511,8 @@
             <string>meta.separator</string>
             <key>settings</key>
             <dict>
-                <key>background</key>
-                <string>#eee8d5</string>
+                <!-- <key>background</key> -->
+                <!-- <string>#16537e</string> -->
                 <key>fontStyle</key>
                 <string>bold</string>
                 <key>foreground</key>
