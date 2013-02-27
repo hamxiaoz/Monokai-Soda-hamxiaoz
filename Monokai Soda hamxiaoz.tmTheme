@@ -352,10 +352,6 @@
             <string>markup.deleted</string>
             <key>settings</key>
             <dict>
-                <key>background</key>
-                <string>#EAE3CA</string>
-                <key>fontStyle</key>
-                <string></string>
                 <key>foreground</key>
                 <string>#D3201F</string>
             </dict>
@@ -367,10 +363,6 @@
             <string>markup.changed</string>
             <key>settings</key>
             <dict>
-                <key>background</key>
-                <string>#EAE3CA</string>
-                <key>fontStyle</key>
-                <string></string>
                 <key>foreground</key>
                 <string>#BF3904</string>
             </dict>
@@ -382,8 +374,6 @@
             <string>markup.inserted</string>
             <key>settings</key>
             <dict>
-                <key>background</key>
-                <string>#EAE3CA</string>
                 <key>foreground</key>
                 <string>#219186</string>
             </dict>
