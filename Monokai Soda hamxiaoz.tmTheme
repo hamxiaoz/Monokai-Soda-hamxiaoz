@@ -398,6 +398,8 @@
             <string>text.html.markdown markup.raw.inline</string>
             <key>settings</key>
             <dict>
+                <key>background</key>
+                <string>#222</string>
                 <key>foreground</key>
                 <string>#269186</string>
             </dict>
@@ -415,6 +417,9 @@
                 <string>#cb4b16</string>
             </dict>
         </dict>
+
+        <!-- italic has a lighten gray color than bold -->
+        <!-- TODO I have to disable it right now because it has trouble treating a_b c_d as italic -->
 <!--         <dict>
             <key>name</key>
             <string>Markup: Italic</string>
@@ -428,8 +433,8 @@
                 <string>#839496</string>
             </dict>
         </dict>
- -->        
-        <dict>
+
+ -->        <dict>
             <key>name</key>
             <string>Markup: Bold</string>
             <key>scope</key>
@@ -440,7 +445,8 @@
                 <string>bold</string>
                 <key>foreground</key>
                 <!-- <string>#586e75</string> -->
-                <string>#53A92E</string>
+                <!-- <string>#53A92E</string> -->
+                <string>#F92672</string>
             </dict>
         </dict>
         <dict>
@@ -505,6 +511,58 @@
                 <!-- <string>#16537e</string> -->
                 <key>fontStyle</key>
                 <string>bold</string>
+                <key>foreground</key>
+                <string>#268bd2</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown: Raw Block</string>
+            <key>scope</key>
+            <string>markup.raw.block.fenced.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#222</string>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Fenced Code Block - the fence</string>
+            <key>scope</key>
+            <string>punctuation.definition.fenced.markdown,variable.language.fenced.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#93A1A1</string>
+                <key>background</key>
+                <string>#222222</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Fenced markdown language</string>
+            <key>scope</key>
+            <string>variable.language.fenced.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#C6CECE</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+
+        <!-- link title -->
+        <dict>
+            <key>name</key>
+            <string>see</string>
+            <key>scope</key>
+            <string>string.other.link.title.markdown</string>
+            <key>settings</key>
+            <dict>
                 <key>foreground</key>
                 <string>#268bd2</string>
             </dict>
