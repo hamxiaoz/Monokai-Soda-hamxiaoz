@@ -5,9 +5,9 @@ My theme for sublime text 2, based on monokai soda. Inspired from my vim theme.
 To install, git clone this repository to your /packages directory.
 
 # Preview
-1
-2
-3
+![CoffeeScript](https://raw.githubusercontent.com/hamxiaoz/Monokai-Soda-hamxiaoz/master/preview/coffee.png)
+![JavaScript](https://raw.githubusercontent.com/hamxiaoz/Monokai-Soda-hamxiaoz/master/preview/js.png)
+![Markdown](https://raw.githubusercontent.com/hamxiaoz/Monokai-Soda-hamxiaoz/master/preview/md.png)3
 
 # Usage (vim + markdown)
 - ignore 'Vintage' to enabel vim
